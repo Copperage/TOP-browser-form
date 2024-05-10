@@ -1,0 +1,32 @@
+form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 250px;
+}
+
+label {
+	display: block;
+	margin: 10px 0 5px 0;
+	font-weight: 900;
+	font-size: 18px;
+}
+
+input {
+	display: block;
+	width: 100%;
+	font-size: 18px;
+}
+
+input[type='submit'] {
+	margin-top: 20px;
+	background-color: rgb(72, 175, 72);
+	color: rgb(252, 240, 230);
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.error {
+	border-color: red;
+}
